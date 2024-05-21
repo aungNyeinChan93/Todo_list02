@@ -1,0 +1,30 @@
+{
+    "todoList": [
+        {
+            "id": 1,
+            "task": "Morning Study",
+            "completeStatus": false
+        },
+        {
+            "id": 2,
+            "task": "Breakfast",
+            "completeStatus": false
+        },
+        {
+            "id": 3,
+            "task": "Exercise",
+            "completeStatus": false
+        },
+        {
+            "id": 4,
+            "task": "Go School",
+            "completeStatus": false
+        }
+    ],
+    "test": [
+        {
+            "id": "1",
+            "boolean":true
+        }
+    ]
+}
