@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 
-const List = ({ data }) => {
+const List = ({data}) => {
   // console.log(data);
   return (
     <div className="List list-container">

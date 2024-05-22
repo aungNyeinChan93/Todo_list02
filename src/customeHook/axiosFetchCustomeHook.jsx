@@ -14,5 +14,5 @@ export const useAxiosFetchCustomeHook = (target) => {
   useEffect(() => {
     fetchData();
   }, []);
-  return { posts, loading };
+  return { posts, loading ,setPost};
 };

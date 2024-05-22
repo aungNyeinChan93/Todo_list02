@@ -4,7 +4,7 @@ const Card = ({ data }) => {
     // console.log(data);
   return (
     <div className="Card card-container">
-      {data.map((item, index) => {
+      { data.map((item, index) => {
         return (
           <div className="container-fluid my-1" key={item.id}>
             <ul className="list-group">
@@ -13,7 +13,7 @@ const Card = ({ data }) => {
                   <div className="col-10 col-md-11 ">
                     <i className="fa-solid fa-arrows-turn-right fs-6 text-danger d-inline mx-1"></i>
                     <div className="text d-inline mx-2 text-danger-emphasis">
-                      <span>{item.id}</span> {item.task}
+                      <span>{index+1}</span> {item.task}
                     </div>
                   </div>
                   <div className="col-2 col-md-1">
