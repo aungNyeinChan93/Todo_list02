@@ -9,10 +9,11 @@ export const useAxiosFetchCustomeHook = (target) => {
     const data = await apiTodolist.get(target);
     setPost(data);
     setLoading(false);
+    
   };
 
   useEffect(() => {
     fetchData();
-  }, []);
-  return { posts, loading ,setPost};
+  }, [posts]);
+  return { posts, loading };
 };

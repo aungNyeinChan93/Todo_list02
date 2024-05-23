@@ -1,174 +1,24 @@
 {
   "todoList": [
     {
-      "id": "1",
-      "task": "Morning Study",
+      "id": "5818ba30-3a9a-7a1d-9393-fa173e9c501c",
+      "task": "asdf",
       "completeStatus": true
     },
     {
-      "id": "2",
-      "task": "Breakfast",
+      "id": "7ae669fc-f6db-10ad-19ae-6276359a2a0d",
+      "task": "sadfsad",
       "completeStatus": false
     },
     {
-      "id": "3",
-      "task": "Exercise",
+      "id": "965a610f-474c-71d2-40b7-5da0eba84fbc",
+      "task": "sdafasdf",
       "completeStatus": false
     },
     {
-      "id": "4",
-      "task": "Go School",
+      "id": "676ef903-7fd7-a5a7-c97e-0829cf4ce410",
+      "task": "dsafasdf",
       "completeStatus": false
-    },
-    {
-      "id": "ea9e7f16-2c33-f162-5ef5-4e7ee1bec553",
-      "task": "cc",
-      "completeStatus": true
-    },
-    {
-      "id": "8fc70da3-d9a2-de01-8d6b-9a2c20992d81",
-      "task": "aaaa",
-      "completeStatus": true
-    },
-    {
-      "id": "f10007b7-40f4-9481-f208-80d23332a5ca",
-      "task": "asdas",
-      "completeStatus": true
-    },
-    {
-      "id": "1f89c4a1-faad-0f74-1845-d871dfd212c1",
-      "task": "aaa",
-      "completeStatus": true
-    },
-    {
-      "id": "1e3b0cf5-069b-67c8-1010-b4bd5312e974",
-      "task": "aaa",
-      "completeStatus": true
-    },
-    {
-      "id": "3f6d8bda-551b-ddc7-1af0-7432c516bdc5",
-      "task": "aaa",
-      "completeStatus": true
-    },
-    {
-      "id": "4d4bd811-235c-c734-63ba-3b9c6920bf02",
-      "task": "s",
-      "completeStatus": true
-    },
-    {
-      "id": "6f8760f6-81c1-83bf-6380-cb8ba8452fc3",
-      "task": "ssdas",
-      "completeStatus": true
-    },
-    {
-      "id": "71288b33-c335-50a8-99db-f92b77142314",
-      "task": "ssdassadasdas",
-      "completeStatus": true
-    },
-    {
-      "id": "90a38b01-0676-e775-21fa-49ff816b3853",
-      "task": "ssdassadasdas",
-      "completeStatus": true
-    },
-    {
-      "id": "b855f878-d21f-3a95-6e93-4797418313a0",
-      "task": "ssdassadasdas",
-      "completeStatus": true
-    },
-    {
-      "id": "f7c995be-c190-7a0d-630f-18ce3e05d533",
-      "task": "dsfd",
-      "completeStatus": true
-    },
-    {
-      "id": "8145f3eb-af6a-01cb-0526-27b620af540a",
-      "task": "as",
-      "completeStatus": true
-    },
-    {
-      "id": "f6a7863e-cb83-5f41-e130-7c842bb6038b",
-      "task": "as",
-      "completeStatus": true
-    },
-    {
-      "id": "d710f149-56c2-70a7-0e84-9779c1c90902",
-      "task": "aaa",
-      "completeStatus": true
-    },
-    {
-      "id": "b6cad896-15a0-8c5a-3a8c-668943b06895",
-      "task": "aaa",
-      "completeStatus": true
-    },
-    {
-      "id": "a2782205-8c50-4238-131d-834213b7b30e",
-      "task": "sdaasda",
-      "completeStatus": true
-    },
-    {
-      "id": "35dd3ed5-ff22-8bfc-0c62-4bd1e4701463",
-      "task": "sdaasda",
-      "completeStatus": true
-    },
-    {
-      "id": "08bb13d4-9919-8c8f-06e5-c7e62b45d4b8",
-      "task": "sdaasda",
-      "completeStatus": true
-    },
-    {
-      "id": "1dbbd900-6a56-dc65-fc81-c47e14d69123",
-      "task": "sdaasda",
-      "completeStatus": true
-    },
-    {
-      "id": "1a65bed1-90ed-d246-3670-d67670c2c784",
-      "task": "saaa",
-      "completeStatus": true
-    },
-    {
-      "id": "7cef2b4f-733f-ec43-a068-c4a1cebdc8e8",
-      "task": "test 1",
-      "completeStatus": true
-    },
-    {
-      "id": "999f8788-a7f7-b563-58ab-ba2b86694f30",
-      "task": "asas",
-      "completeStatus": true
-    },
-    {
-      "id": "9c623bc7-f620-40dd-6355-21788a268647",
-      "task": "asas",
-      "completeStatus": true
-    },
-    {
-      "id": "04d680df-94d9-28cc-aa17-dc54400532e1",
-      "task": "asas",
-      "completeStatus": true
-    },
-    {
-      "id": "2b9fc936-95c6-81e0-4780-68f22b771eab",
-      "task": "asas",
-      "completeStatus": true
-    },
-    {
-      "id": "3b33d020-6bf2-7270-bd15-4bb47e72b1f1",
-      "task": "asd",
-      "completeStatus": true
-    },
-    {
-      "id": "1111f9db-1c0c-6ab5-21f6-bda072b5e0fa",
-      "task": "asdas",
-      "completeStatus": true
-    },
-    {
-      "id": "d2591d7c-57ff-c504-85b2-a088babbaf8e",
-      "task": "",
-      "completeStatus": true
-    },
-    {
-      "id": "3ae94b51-5556-8032-ba2d-aad8f70f604a",
-      "task": "sadas",
-      "completeStatus": true
     }
   ],
   "test": [

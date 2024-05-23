@@ -4,6 +4,11 @@ import { useState } from "react";
 
 const Form = ({formHandeler}) => {
   const [userInput,setUserInput] = useState("");
+
+  function formBtnHandeler(userInput){
+    formHandeler(userInput);
+    setUserInput("")
+  }
  
   return (
     <div className="Form mt-2">
@@ -16,7 +21,7 @@ const Form = ({formHandeler}) => {
               <input value={userInput} onChange={(e)=>setUserInput(e.target.value)} type="text" name="" id="" className="form-control" />
             </div>
             <div className="col-12 col-md-2 my-2">
-              <button onClick={()=>formHandeler(userInput,setUserInput)} typeof="button" className="btn btn-danger px-3 rounded-pill"><i className="fa-solid fa-plus me-1 fs-6"></i>Add</button>
+              <button onClick={()=>formBtnHandeler(userInput)} typeof="button" className="btn btn-danger px-3 rounded-pill"><i className="fa-solid fa-plus me-1 fs-6"></i>Add</button>
             </div>
           </div>
         </form>

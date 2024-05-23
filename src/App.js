@@ -8,19 +8,29 @@ import uuid from "react-uuid";
 import { apiTodolist } from "./api/apiResource";
 
 function App() {
-  const { posts, loading, setPost } = useAxiosFetchCustomeHook("./todoList");
+  const { posts, loading } = useAxiosFetchCustomeHook("./todoList");
   // console.log(posts);
 
-  async function formHandeler(userInput, setInputUser) {
+  async function formHandeler(userInput) {
     const myData = {
       id: uuid(),
       task: userInput,
-      completeStatus: true,
+      completeStatus: false,
     };
-    const responce = await apiTodolist.post("todoList", myData);
-    console.log(responce.data);
-    console.log(posts.data.concat(responce.data));
-    // setPost(posts.data.concat(responce.data))
+    if (!userInput == "") {
+      await apiTodolist.post("todoList", myData);
+    }
+  }
+
+  async function deleteFunction(e, id) {
+    // console.log(e);
+    // console.log(id);
+    await apiTodolist.delete(`todoList/${id}`);
+  };
+
+  async function editFunction(id,completeStatus){
+    console.log(id,completeStatus);
+    await apiTodolist.patch(`todoList/${id}`,{completeStatus})
   }
 
   if (loading) {
@@ -33,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <Form formHandeler={formHandeler} />
-      <List {...posts} />
+      <List {...posts} deleteFunction={deleteFunction} editFunction={editFunction} />
     </div>
   );
 }
